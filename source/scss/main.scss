@@ -1,43 +1,76 @@
 .header {
-
+color: #78595e;
+font-family: 'DynaPuff', cursive;
+width: fit-content;
+font-size: 3.5rem;
+text-align: center;
 }
 
 body {
-
+background: rgb(224, 193, 179);
+background: radial-gradient(circle, rgb(183, 130, 146), rgb(196, 141, 156),rgb(219, 173, 175), rgb(225, 206, 196));
+background-repeat: no-repeat;
+height: 100vh;
 }
 
 .categoryPickerLabel {
-
+    font-family: 'DynaPuff', cursive;
+    font-size: 1.5rem;
+    color: #78595e;
+    font-size: 2rem;
 }
 
 .categoryPicker {
-
+    margin: 2rem;
 }
 
 button {
+background-color: #AEB4A9;
+margin-top: 1rem;
+padding: 1rem 2rem;
+border-radius: 10px;
+border: 2px solid black;
+color:#78595e;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+font-family: 'DynaPuff', cursive;
+font-size: 1rem;
 
-    &:hover
-    &:active {
 
+&:hover,
+&:active {
+    background-color:  #767a72;
+    color: #E0C1B3;
     }
 }
 
 select {
-
+    font-size: 1rem;
 }
 
 .jokeBox {
-
+    display: flex;
+    padding: 3rem;
+    font-size: 1.5rem;
 }
 
 .wrapper {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 3rem;
 
     button {
-    
+        cursor: pointer;
     }
 }
 
@@ -47,15 +80,31 @@ select {
 
 body.change {
 
-    .header {
-
+    body.change {
+        background: black;
+        background-image: linear-gradient(to left, rgb(29, 0, 49), rgb(0, 0, 152));
+        color: whitesmoke;
+    
+        .header {
+            background-image: linear-gradient(to left, rgb(225, 192, 249), rgb(125, 125, 255));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 3.5rem;
+        }
+    
+        button {
+            background-image: linear-gradient(to left, rgb(225, 192, 249), rgb(125, 125, 255));
+            color: black;
+            box-shadow: 0px 8px 15px rgba(238, 238, 238, 0.2);
+    
+        }
+    
     }
+}    
 
-    button {
-
-    }
+.colorToggleIcon {
+    background-color: white;
 }
-
 
 
 

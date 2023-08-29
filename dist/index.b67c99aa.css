@@ -1,3 +1,95 @@
+.header {
+  color: #78595e;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: DynaPuff, cursive;
+  font-size: 3.5rem;
+}
 
+body {
+  background: radial-gradient(circle, #b78292, #c48d9c, #dbadaf, #e1cec4) no-repeat;
+  height: 100vh;
+}
+
+.categoryPickerLabel {
+  color: #78595e;
+  font-family: DynaPuff, cursive;
+  font-size: 2rem;
+}
+
+.categoryPicker {
+  margin: 2rem;
+}
+
+button {
+  color: #78595e;
+  background-color: #aeb4a9;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  font-family: DynaPuff, cursive;
+  font-size: 1rem;
+  box-shadow: 0 8px 15px #0000001a;
+}
+
+button:hover, button:active {
+  color: #e0c1b3;
+  background-color: #767a72;
+}
+
+select {
+  font-size: 1rem;
+}
+
+.jokeBox {
+  padding: 3rem;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.wrapper {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.button-box {
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 3rem;
+  display: flex;
+}
+
+.button-box button {
+  cursor: pointer;
+}
+
+body.change body.change {
+  color: #f5f5f5;
+  background: #000 linear-gradient(to left, #1d0031, #000098);
+}
+
+body.change body.change .header {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to left, #e1c0f9, #7d7dff);
+  -webkit-background-clip: text;
+  font-size: 3.5rem;
+}
+
+body.change body.change button {
+  color: #000;
+  background-image: linear-gradient(to left, #e1c0f9, #7d7dff);
+  box-shadow: 0 8px 15px #eee3;
+}
+
+.colorToggleIcon {
+  background-color: #fff;
+}
 
 /*# sourceMappingURL=index.b67c99aa.css.map */

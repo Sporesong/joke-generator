@@ -589,7 +589,7 @@ function addEventListeners() {
     let button = document.querySelector("#getJoke");
     const addBtn = document.querySelector("#add");
     const removeBtn = document.querySelector("#remove");
-    const colorToggleBtn = document.querySelector(".colortoggleIcon");
+    const colorToggleBtn = document.querySelector(".colorToggleIcon");
     addBtn.addEventListener("click", addPoint);
     removeBtn.addEventListener("click", removePoint);
     button.addEventListener("click", generateJoke);
@@ -609,7 +609,7 @@ const generateJoke = async ()=>{
     }
 };
 function printHtml(jokeText) {
-    let div = document.querySelector(".jokebox");
+    let div = document.querySelector(".jokeBox");
     div.innerHTML = jokeText;
 }
 function addPoint() {
