@@ -78,30 +78,6 @@ select {
 
 }
 
-body.change {
-
-    body.change {
-        background: black;
-        background-image: linear-gradient(to left, rgb(29, 0, 49), rgb(0, 0, 152));
-        color: whitesmoke;
-    
-        .header {
-            background-image: linear-gradient(to left, rgb(225, 192, 249), rgb(125, 125, 255));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-size: 3.5rem;
-        }
-    
-        button {
-            background-image: linear-gradient(to left, rgb(225, 192, 249), rgb(125, 125, 255));
-            color: black;
-            box-shadow: 0px 8px 15px rgba(238, 238, 238, 0.2);
-    
-        }
-    
-    }
-}    
-
 .colorToggleIcon {
     background-color: white;
 }
